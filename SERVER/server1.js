@@ -7,13 +7,12 @@ var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
 
 //Directory that i want to be made statiic
-app.use(express.static('../app'));
+app.use(express.static('../APP'));
 
+
+//Tube form
 app.post('/tube', function(req,res){
-
 res.send('You typed in '+req.body.tube);
-
-
 });
 
 
