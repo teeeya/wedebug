@@ -1,0 +1,17 @@
+{
+  "name": "wedebug.co.uk",
+  "version": "1.0.0",
+  "description": "Software Tester's website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-form": "^0.12.6",
+    "request": "^2.79.0"
+  }
+}
